@@ -1,0 +1,38 @@
+@import '../styleguide/colors';
+@import '../styleguide/typography';
+
+.Header {
+  background: $white;
+  box-shadow: 0 2px 8px #f0f1f2;
+  display: flex;
+  margin-bottom: 30px;
+  padding-left: 40px;
+
+  &__brand-link {
+    color: $brandBlue;
+    font-weight: $weightBold;
+    font-size: $typeLarge;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__right-links {
+    margin-left: auto;
+  }
+
+  &__link {
+    color: $black;
+    margin-right: 10px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: $black;
+      opacity: 0.8;
+    }
+  }
+}

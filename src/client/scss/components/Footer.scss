@@ -1,0 +1,16 @@
+.Footer {
+  display: flex;
+
+  &__block {
+    margin-right: 20px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__pull-right {
+    display: flex;
+    margin-left: auto;
+  }
+}
